@@ -29,6 +29,15 @@ public class CasaSoftware {
         }
         return salarioTotal;
     }
+
+    public ArrayList<Contrato> getContratos() {
+        return contratos;
+    }
+
+    public void setContratos(ArrayList<Contrato> contratos) {
+        this.contratos = contratos;
+    }
+   
     
     public String mostrarInformacion(){
       String informacion ="";
